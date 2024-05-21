@@ -1,17 +1,29 @@
-/* Container selector with a width of 80% and a margin of 0 auto */
-.container {
-  width: 80%;
-  margin: 0 auto;
+/* Selectors */
+.container { /* selects the div with class "container" */
+	background-color: #f0f0f0; /* light gray background */
+	padding: 20px; /* adds 20px of space between the content and the border */
 }
 
-/* Header selector with a size of 2.5em and a color of red */
-.header {
-  font-size: 2.5em;
-  color: red;
+h1 { /* selects all h1 elements */
+	color: #00698f; /* blue text color */
+	font-size: 36px; /* sets font size to 36 pixels */
 }
 
-/* Text selector with a size of 1.2em and a color of blue */
-.text {
-  font-size: 1.2em;
-  color: blue;
+p { /* selects all p elements */
+	color: #666; /* dark gray text color */
+	font-size: 18px; /* sets font size to 18 pixels */
+}
+
+.box { /* selects the div with class "box" */
+	background-color: #ff69b4; /* pink background */
+	width: 200px; /* sets width to 200 pixels */
+	height: 100px; /* sets height to 100 pixels */
+	border: 1px solid #ccc; /* adds a 1px solid gray border */
+	margin: 20px; /* adds 20px of space between the box and other elements */
+	padding: 10px; /* adds 10px of space between the content and the border */
+}
+
+/* Box Model */
+.box {
+	box-sizing: border-box; /* includes padding and border in width and height calculations */
 }
