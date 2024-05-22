@@ -1,29 +1,54 @@
 /* Selectors */
-.container { /* selects the div with class "container" */
-	background-color: #f0f0f0; /* light gray background */
-	padding: 20px; /* adds 20px of space between the content and the border */
+header {
+	/* Colors */
+	background-color: #333; /* hex code for dark gray */
+	color: #fff; /* hex code for white */
 }
 
-h1 { /* selects all h1 elements */
-	color: #00698f; /* blue text color */
-	font-size: 36px; /* sets font size to 36 pixels */
+main {
+	/* Units and Size */
+	width: 80%; /* percentage unit for width */
+	margin: 20px auto; /* pixel unit for margin */
+	padding: 20px; /* pixel unit for padding */
+	border: 1px solid #ddd; /* pixel unit for border */
+	border-radius: 10px; /* pixel unit for border radius */
 }
 
-p { /* selects all p elements */
-	color: #666; /* dark gray text color */
-	font-size: 18px; /* sets font size to 18 pixels */
+section {
+	/* Box Model */
+	box-sizing: border-box; /* include padding and border in width and height */
+	width: 50%; /* percentage unit for width */
+	float: left; /* float left to create a column layout */
+	margin: 10px; /* pixel unit for margin */
 }
 
-.box { /* selects the div with class "box" */
-	background-color: #ff69b4; /* pink background */
-	width: 200px; /* sets width to 200 pixels */
-	height: 100px; /* sets height to 100 pixels */
-	border: 1px solid #ccc; /* adds a 1px solid gray border */
-	margin: 20px; /* adds 20px of space between the box and other elements */
-	padding: 10px; /* adds 10px of space between the content and the border */
+aside {
+	/* Box Model */
+	box-sizing: border-box; /* include padding and border in width and height */
+	width: 40%; /* percentage unit for width */
+	float: right; /* float right to create a column layout */
+	margin: 10px; /* pixel unit for margin */
 }
 
-/* Box Model */
-.box {
-	box-sizing: border-box; /* includes padding and border in width and height calculations */
+h1, h2, h3 {
+	/* Typography */
+	font-family: Arial, sans-serif; /* font family */
+	font-size: 24px; /* pixel unit for font size */
+	font-weight: bold; /* font weight */
+	margin-bottom: 10px; /* pixel unit for margin bottom */
+}
+
+p {
+	/* Typography */
+	font-size: 16px; /* pixel unit for font size */
+	line-height: 1.5; /* unitless value for line height */
+	margin-bottom: 20px; /* pixel unit for margin bottom */
+}
+
+footer {
+	/* Colors */
+	background-color: #444; /* hex code for dark gray */
+	color: #fff; /* hex code for white */
+	padding: 10px; /* pixel unit for padding */
+	text-align: center; /* text alignment */
 }
