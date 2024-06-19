@@ -1,54 +1,52 @@
 /* Selectors */
-header {
-	/* Colors */
-	background-color: #333; /* hex code for dark gray */
-	color: #fff; /* hex code for white */
+#main-heading { /* ID selector */
+	color: #00698f; /* blue color */
+	font-size: 36px; /* font size in pixels */
 }
 
-main {
-	/* Units and Size */
-	width: 80%; /* percentage unit for width */
-	margin: 20px auto; /* pixel unit for margin */
-	padding: 20px; /* pixel unit for padding */
-	border: 1px solid #ddd; /* pixel unit for border */
-	border-radius: 10px; /* pixel unit for border radius */
+.description { /* class selector */
+	font-style: italic; /* italic font style */
 }
 
-section {
-	/* Box Model */
+.button { /* class selector */
+	background-color: #4CAF50; /* green background color */
+	color: #ffffff; /* white text color */
+	padding: 10px 20px; /* padding in pixels */
+	border: none; /* no border */
+	border-radius: 5px; /* rounded corners */
+	cursor: pointer; /* pointer cursor */
+}
+
+.container { /* class selector */
+	width: 80%; /* width in percentage */
+	margin: 20px auto; /* margin in pixels and auto for horizontal centering */
+	padding: 20px; /* padding in pixels */
+	border: 1px solid #ddd; /* border in pixels and color */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* box shadow */
+}
+
+/* Units and Sizes */
+.container {
+	font-size: 1.2em; /* font size in em units */
+	line-height: 1.5; /* line height in unitless value */
+}
+
+/* Box Model */
+.container {
 	box-sizing: border-box; /* include padding and border in width and height */
-	width: 50%; /* percentage unit for width */
-	float: left; /* float left to create a column layout */
-	margin: 10px; /* pixel unit for margin */
 }
 
-aside {
-	/* Box Model */
-	box-sizing: border-box; /* include padding and border in width and height */
-	width: 40%; /* percentage unit for width */
-	float: right; /* float right to create a column layout */
-	margin: 10px; /* pixel unit for margin */
-}
-
-h1, h2, h3 {
-	/* Typography */
+/* Typography */
+body {
 	font-family: Arial, sans-serif; /* font family */
-	font-size: 24px; /* pixel unit for font size */
-	font-weight: bold; /* font weight */
-	margin-bottom: 10px; /* pixel unit for margin bottom */
 }
 
-p {
-	/* Typography */
-	font-size: 16px; /* pixel unit for font size */
-	line-height: 1.5; /* unitless value for line height */
-	margin-bottom: 20px; /* pixel unit for margin bottom */
+/* Styling Links */
+a {
+	text-decoration: none; /* no underline */
+	color: #337ab7; /* blue color */
 }
 
-footer {
-	/* Colors */
-	background-color: #444; /* hex code for dark gray */
-	color: #fff; /* hex code for white */
-	padding: 10px; /* pixel unit for padding */
-	text-align: center; /* text alignment */
+a:hover {
+	color: #23527c; /* darker blue color on hover */
 }
