@@ -1,52 +1,48 @@
 /* Selectors */
 #main-heading { /* ID selector */
-	color: #00698f; /* blue color */
-	font-size: 36px; /* font size in pixels */
+  color: #00698f; /* hex color code */
+  font-size: 36px; /* font size in pixels */
 }
 
 .description { /* class selector */
-	font-style: italic; /* italic font style */
+  font-style: italic; /* font style */
+  font-size: 18px; /* font size in pixels */
+  margin-bottom: 20px; /* margin in pixels */
 }
 
-.button { /* class selector */
-	background-color: #4CAF50; /* green background color */
-	color: #ffffff; /* white text color */
-	padding: 10px 20px; /* padding in pixels */
-	border: none; /* no border */
-	border-radius: 5px; /* rounded corners */
-	cursor: pointer; /* pointer cursor */
+ul {
+  list-style: square; /* list style */
+  padding: 10px; /* padding in pixels */
 }
 
-.container { /* class selector */
-	width: 80%; /* width in percentage */
-	margin: 20px auto; /* margin in pixels and auto for horizontal centering */
-	padding: 20px; /* padding in pixels */
-	border: 1px solid #ddd; /* border in pixels and color */
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* box shadow */
+li {
+  margin-bottom: 10px; /* margin in pixels */
 }
 
-/* Units and Sizes */
-.container {
-	font-size: 1.2em; /* font size in em units */
-	line-height: 1.5; /* line height in unitless value */
+a {
+  text-decoration: none; /* remove underline from links */
+  color: #0099cc; /* hex color code */
+}
+
+a:hover {
+  color: #ff69b4; /* hex color code on hover */
 }
 
 /* Box Model */
-.container {
-	box-sizing: border-box; /* include padding and border in width and height */
+div.box {
+  width: 200px; /* width in pixels */
+  height: 100px; /* height in pixels */
+  border: 1px solid #ccc; /* border width, style, and color */
+  padding: 20px; /* padding in pixels */
+  margin: 10px; /* margin in pixels */
 }
 
 /* Typography */
 body {
-	font-family: Arial, sans-serif; /* font family */
+  font-family: Arial, sans-serif; /* font family and fallback */
+  line-height: 1.5; /* line height */
 }
 
-/* Styling Links */
-a {
-	text-decoration: none; /* no underline */
-	color: #337ab7; /* blue color */
-}
-
-a:hover {
-	color: #23527c; /* darker blue color on hover */
+h1, h2, h3 {
+  font-weight: bold; /* font weight */
 }
